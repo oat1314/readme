@@ -2959,3 +2959,51 @@ public class AccountServiceImpl {
 
 ![运行结果](http://c.biancheng.net/uploads/allimg/190702/5-1ZF2163P15Q.png)
 图 2 运行结果
+
+JVM
+我们jvm环境的一个类，会经过类加载(loading)->连接(linking)->初始化(Initializing)->使用(实例化)->卸载(GC) 的过程
+
+
+
+1.类加载：jvm将编译好的class字节码文件加载到方法区
+
+2.连接：
+
+校验: 验证文件是否符合JVM规定
+准备: 给静态变量赋默认值
+解析: 虚拟机将常量池内的符号引用替换为直接引用的过程。解析动作主要针对类或接口、字段、类方法、接口方法、方法类型、方法句柄和调用限定符7类符号引用进行
+3.初始化
+
+4.使用：这里进行实例化
+
+调用类初始化代码 ，给静态成员变量赋初始值
+
+所有在JVM环境下类必须 先初始化后 才能 实例化
+
+spring
+spring环境下的实例化、初始化和jvm中的含义是完全不一样的，这个需要从spring bean的生命周期说起。
+
+spring bean的生命周期：
+
+1.实例化bean（这里对应jvm类加载->初始化全过程）
+
+2.populate bean(bean装载属性，属性注入依赖)
+
+3.bean的初始化
+
+ 执行Aware相关接口的set方法注入依赖
+ 执行BeanPostProcessors的前置方法
+@PostConstruct注解方法执行
+InitializingBean接口实现类(组件)的初始化方法afterPropertiesSet执行
+自己指定的init-method方法执行
+注册销毁方法
+4.使用Bean
+
+5.销毁Bean
+
+总结：
+从上面的内容可以看出：spring bean中bean实例化、初始化跟JVM中类的实例化、初始化的观察角度是不一样的。
+
+其中spring bean 的实例化就包含了jvm对一个类的初始化->实例化过程；
+
+spring bean是先对bean进行实例化后 再进行初始化。
