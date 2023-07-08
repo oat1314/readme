@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-08T16:16:55.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="FCdwg0rgk8tz3mUQ69UD" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-08T16:20:34.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gBBQK4Z2flDtmedSPYDx" version="21.1.5" type="github">
   <diagram name="第 1 页" id="SBbXXd1s9cjQZMYbOweZ">
     <mxGraphModel dx="1687" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,43 @@
         <mxCell id="zivrHOLhs4LDvnfFxel--39" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--43" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--44" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--49" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--51" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--53" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--38" value="jvm" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--42" value="执行引擎" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--47" value="用于执行在class中定义的指令" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="370" y="495" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--48" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="zivrHOLhs4LDvnfFxel--47" parent="1" source="zivrHOLhs4LDvnfFxel--42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349" y="492" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--55" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--52" target="zivrHOLhs4LDvnfFxel--54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--52" value="本地库接口" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--54" value="用于和其他语言进行交互，提供和其他编程语言交互的入口" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="615" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
