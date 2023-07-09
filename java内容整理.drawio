@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-09T15:35:40.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NaOON-2ylLqW6cMYIu9b" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-09T15:37:59.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nnIikkQUQGc4DtAI8MSF" version="21.1.5" type="github">
   <diagram name="第 1 页" id="SBbXXd1s9cjQZMYbOweZ">
     <mxGraphModel dx="1687" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
           <mxGeometry x="626" y="390" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--25" value="java方法执行的线程内存模型:方法执行时，JVM会同步创建一个栈帧，用来存储局部变量表、操作数栈、动态连接等" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="856" y="390" width="660" height="30" as="geometry" />
+          <mxGeometry x="750" y="390" width="660" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--30" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--27" target="zivrHOLhs4LDvnfFxel--29">
           <mxGeometry relative="1" as="geometry">
@@ -71,7 +71,7 @@
           <mxGeometry x="626" y="500" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--29" value="本地方法栈与虚拟机栈所发挥的作用是非常相似的，其区别只是虚拟机栈为虚拟机执行java方法（也就是字节码）服务，而本地方法栈则是为虚拟机使用到本地（Native）的方法服务" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="856" y="500" width="1000" height="30" as="geometry" />
+          <mxGeometry x="760" y="500" width="1000" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--39" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--1">
           <mxGeometry relative="1" as="geometry" />
@@ -90,6 +90,12 @@
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--53" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zivrHOLhs4LDvnfFxel--38" target="zivrHOLhs4LDvnfFxel--52">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--57" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="221" y="881" as="targetPoint" />
+            <mxPoint x="151" y="510.9999999999998" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--38" value="jvm" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="490" width="100" height="40" as="geometry" />
@@ -113,6 +119,9 @@
         </mxCell>
         <mxCell id="zivrHOLhs4LDvnfFxel--54" value="用于和其他语言进行交互，提供和其他编程语言交互的入口" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="400" y="705" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zivrHOLhs4LDvnfFxel--58" value="Central Idea" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="860" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
